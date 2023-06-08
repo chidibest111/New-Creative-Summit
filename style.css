@@ -1,0 +1,169 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    font-size: 20px;
+}
+.head{
+    
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(121, 126, 52);
+    width: 100%;  
+    position: fixed; 
+    
+}
+.header1{
+    padding:5px;
+    background-color: rgb(7, 6, 6);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    margin-top: 0px;
+    padding-left: 900px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header1-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -219px;
+    }
+    .header1-icon1{
+        margin-left: 9px;
+        
+    }
+    .header1-icon2{
+        margin-left: 18px;
+        margin-right: 109px;
+    }
+    a{
+        text-decoration: none;
+        color:#fff;
+    }
+.header1-nav{
+    display: flex;
+    position: relative;
+    right: 300px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin-inline: 10px;
+}
+.header1-nav-item{
+padding-right: 19px;
+width: 85px;
+margin: 5px;
+}
+.header1-nav-item a:hover{
+    color:yellowgreen;
+}
+.header2-nav{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 43px;
+    left: 0px;
+    right: 0px;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.page-icon{
+    margin-left: 105px;
+}
+nav{
+    padding-left: 232px;
+}
+nav ul a{
+    color: black;
+    margin-left: 31px;
+}
+.campaign{
+    margin-left: 179px;
+    padding: 12px;
+    color: crimson;
+    border-width: 8px;
+    border-color: crimson;
+    border-style: solid;
+    font-weight: 700;
+
+}
+.first-page{
+    display: flex;
+    flex-direction: column;
+    margin-top: 74px;
+    background-color: rgb(133, 133, 197);
+    height: 887px;
+}
+
+.tittle{
+    position: relative;
+    
+    height: 284px;
+    width: 632px;
+    left: 239px;
+    top: 81px;
+    border-radius: 0px;
+}
+.tittle-img1{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    position: relative;
+    top: 122px;
+    left: 239px;
+    width: 736px;
+    font-size: 38px;
+    font-family: lato;
+    padding: 26px 30px;
+    margin-bottom: 19px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(205, 212, 218);
+}
+.content-part2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 159px;
+    left: 239px;
+}
+.gothic{
+    width: 608.35px;
+    
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 43px;
+    line-height: 90px;
+}
+
+.gothic2{
+    font-size: 24px;
+    font-family: gothic;
+    font-weight:700;
+    line-height: 0;
+    color: #5f5b5b;
+}
+.program{
+    background-color: black;
+    height: 587px;
+    width: 1440px;
+
+}
+
+
